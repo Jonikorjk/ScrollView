@@ -10,16 +10,12 @@ import SnapKit
 
 class ViewController: UIViewController {
     
-//    var scrollView: UIScrollView = UIScrollView()
-//
-//    var contentView: UIView = UIView()
-
-    private let collectionView: UICollectionView = {
-        let viewLayout = UICollectionViewFlowLayout()
-        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: viewLayout)
-        collectionView.backgroundColor = .red
-        return collectionView
-    }()
+//    private let collectionView: UICollectionView = {
+//        let viewLayout = UICollectionViewFlowLayout()
+//        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: viewLayout)
+//        collectionView.backgroundColor = .red
+//        return collectionView
+//    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -89,17 +85,17 @@ class ViewController: UIViewController {
 
     }
 }
-
-extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 1000
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: DefaultCollectionViewCell.identifier, for: indexPath)
-        cell.backgroundColor = .blue
-        return cell
-    }
-    
-    
-}
+//
+//extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+//    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+//        return 1000
+//    }
+//    
+//    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+//        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: DefaultCollectionViewCell.identifier, for: indexPath)
+//        cell.backgroundColor = .blue
+//        return cell
+//    }
+//    
+//    
+//}
