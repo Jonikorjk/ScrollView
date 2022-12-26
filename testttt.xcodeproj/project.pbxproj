@@ -12,6 +12,7 @@
 		CE7D4B6E2955F33700E97CDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7D4B6D2955F33700E97CDB /* SceneDelegate.swift */; };
 		CE7D4B702955F33700E97CDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7D4B6F2955F33700E97CDB /* ViewController.swift */; };
 		CE7D4B752955F33900E97CDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7D4B742955F33900E97CDB /* Assets.xcassets */; };
+		CE7D4B802956178D00E97CDB /* DefaultCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7D4B7F2956178D00E97CDB /* DefaultCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		CE7D4B6F2955F33700E97CDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE7D4B742955F33900E97CDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE7D4B792955F33900E97CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7D4B7F2956178D00E97CDB /* DefaultCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultCollectionViewCell.swift; sourceTree = "<group>"; };
 		E693EE4835F1098EB85BF042 /* Pods-testttt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testttt.debug.xcconfig"; path = "Target Support Files/Pods-testttt/Pods-testttt.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,7 +46,6 @@
 				E693EE4835F1098EB85BF042 /* Pods-testttt.debug.xcconfig */,
 				4CE3B8DAE436575935E603F2 /* Pods-testttt.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -74,6 +75,7 @@
 				CE7D4B6F2955F33700E97CDB /* ViewController.swift */,
 				CE7D4B742955F33900E97CDB /* Assets.xcassets */,
 				CE7D4B792955F33900E97CDB /* Info.plist */,
+				CE7D4B7F2956178D00E97CDB /* DefaultCollectionViewCell.swift */,
 			);
 			path = testttt;
 			sourceTree = "<group>";
@@ -201,6 +203,7 @@
 			files = (
 				CE7D4B702955F33700E97CDB /* ViewController.swift in Sources */,
 				CE7D4B6C2955F33700E97CDB /* AppDelegate.swift in Sources */,
+				CE7D4B802956178D00E97CDB /* DefaultCollectionViewCell.swift in Sources */,
 				CE7D4B6E2955F33700E97CDB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
